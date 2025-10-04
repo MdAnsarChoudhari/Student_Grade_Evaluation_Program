@@ -1,9 +1,14 @@
 
 total = 0
 
-for i in range(1, 6):
-    marks = float(input(f"Enter marks of subject {i}: "))
-    total += marks   
+print("Enter marks of 5 subjects:")
+a=float(input("Subject 1: "))
+b=float(input("Subject 2: "))
+c=float(input("Subject 3: "))
+d=float(input("Subject 4: "))
+e=float(input("Subject 5: "))   
+total = a + b + c + d + e
+print("\nTotal Marks:", total)
 
 
 avg = total / 5
